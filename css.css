@@ -1,0 +1,182 @@
+/*Start global rules*/
+:root{
+    --main-color:#19c8fa;
+    --transport-color:rgb(15 116 143/70%);
+    --section-padding:100px;
+}
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+ul{
+    list-style:none;
+}
+/* .containter{
+    padding-left: 50px;
+    padding-right:50px;
+    margin-left:auto;
+    margin-right: auto;
+    
+} */
+/*small*/
+/* @media (min-width:768px ){
+    .containter{
+        width:750;
+    }    
+} */
+/*medium*/
+/* @media (min-width:992){
+    .containter{
+        width:970;
+    }
+} */
+
+/*large*/
+/* @media (min-width:1200){
+    .containter{
+        width:1170;
+    }
+} */
+.nav .container{
+    display: block;
+
+}
+
+.horizontal-menu {
+    display: flex;
+    margin-left: 300px;
+    margin-top:20px;
+
+    
+  }
+  
+  .horizontal-menu a {
+    padding: 40px;
+    text-decoration: none;
+    color: white;
+    padding-top: 50px;
+  }
+  .horizontal{
+    display: flex;
+    margin-left: 700px;
+    margin-bottom: 50px;
+
+  }
+  .horizontal a {
+     padding: 40px; 
+    text-decoration: none;
+    color: white;
+
+  }
+  
+
+.nav{
+background-image: url('../images/hair-salon-5200392_1280.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-clip: padding-box;
+height: 700px;
+overflow: hidden;
+display: block;
+
+}
+.nav button{
+    margin-top: 20px;
+    /* margin-top: 100px; */
+    margin-left: 600px;
+    width: 200px;
+    height: 45px;
+    font-size: 17px;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    border: 1px solid orange;
+    font-weight: bold;
+    
+}
+.p1{
+    font-size: 24px;
+    margin-left: 520px;
+    margin-top: 200px;
+    color:white;
+    font-weight: bold;
+
+}
+.p2{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-left: 580px;
+    margin-top: 240px;
+
+
+}
+.p3{
+    color:orange;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top:70px
+}
+.p4{
+    margin-left: 30px;
+}
+.container.c{
+    display: block;
+}
+.p5{
+    margin-left: 30px;
+    
+}
+.element-group{
+    display: block;
+    margin-top:140px
+
+
+}
+.container {
+    display: flex;
+    flex-direction: row;
+  }
+  .button{
+    background-color: orange;
+    color: white;
+    text-align: center;
+    border: 1px solid orange;
+    font-weight: bold;
+    margin-left: 230px;
+    margin-top: 50px;
+    width: 140px;
+    height: 45px;
+  }
+  .our{
+    color:orange;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 96px;
+  }
+  .img1{
+    margin-left: 500px;
+    width: 300px;
+    margin-top: -300px; 
+  }
+  .img2{
+    margin-top: -2000px;
+    /* margin-top:.1px; */
+    margin-bottom: -115px;
+    width: 300px;
+    margin-left: 1050px;
+
+
+  }
